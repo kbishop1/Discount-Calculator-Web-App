@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="532.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerTheo">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="566.0" layoutX="-17.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/images.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCalc" layoutX="222.0" layoutY="170.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
+      <TextField fx:id="txtFileInput" layoutX="176.0" layoutY="64.0" />
+      <Text fx:id="InputTextFile" fill="#eff1ed" fontSmoothingType="LCD" layoutX="51.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Expected Cost:" wrappingWidth="467.0">
+         <font>
+            <Font size="41.0" />
+         </font></Text>
+      <TextField fx:id="txtAns" layoutX="196.0" layoutY="210.0" prefHeight="27.0" prefWidth="128.0" />
+      <Text fx:id="labelString" fill="#eff1ed" layoutX="120.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input % of Discount" wrappingWidth="328.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtTextString" layoutX="176.0" layoutY="133.0" text="0" />
+   </children>
+</AnchorPane>
